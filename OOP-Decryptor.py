@@ -19,6 +19,8 @@ for i in range(len(user_input)):
     elif user_input[i] == "+":
         output += "o"
     # if !, change to u
+    elif user_input[i] == "!":
+        output += "u"
 
 #output
 print(output)
