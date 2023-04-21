@@ -21,6 +21,9 @@ for i in range(len(user_input)):
     # if !, change to u
     elif user_input[i] == "!":
         output += "u"
+    # add unencrypted characters
+    else:
+        output += user_input[i]
 
 #output
 print(output)
