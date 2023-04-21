@@ -26,5 +26,5 @@ for i in range(len(user_input)):
         output += user_input[i]
 
 #output
-print(output)
-#additional
+from termcolor import colored
+print(colored(output, "red"))
