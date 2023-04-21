@@ -2,6 +2,7 @@
 
 #user input
 user_input = input("Enter encrypted text: ")
+output = "test"
 
 #decryption
 # if *, change to a
@@ -9,5 +10,7 @@ user_input = input("Enter encrypted text: ")
 # if #, change to i
 # if +, change to o
 # if !, change to u
+
 #output
+print(output)
 #additional
