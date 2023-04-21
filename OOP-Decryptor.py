@@ -10,6 +10,9 @@ for i in range(len(user_input)):
     if user_input[i] == "*":
         output += "a"
     # if &, change to e
+    # if &, change to e
+    elif user_input[i] == "&":
+        output += "e"
     # if #, change to i
     # if +, change to o
     # if !, change to u
